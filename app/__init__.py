@@ -33,5 +33,6 @@ def create_app():
 
     return app
 
-    # Expose app instance for Gunicorn
-    app = create_app()
+
+# Expose app instance for Gunicorn
+app = create_app()
