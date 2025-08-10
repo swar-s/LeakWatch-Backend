@@ -32,3 +32,6 @@ def create_app():
     register_routes(app)
 
     return app
+
+    # Expose app instance for Gunicorn
+    app = create_app()
