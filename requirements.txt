@@ -7,7 +7,5 @@ openai
 pymongo
 python-jose
 PyJWT
-python-dotenv
 pytz
-bson
 werkzeug
